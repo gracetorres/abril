@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.mb3{
+    margin-bottom: 3px;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.bk-menu{
+    background-color: #0f172a;
+}
+.selected{
+    background-color: rgb(82, 79, 79);
+}
+.font{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(158, 155, 155);
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.w-50{
+    width: 50%;
+}
+.w-10{
+    width: 10%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-100{
+    width: 100%;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.header{
+    background-color: #2e80af;
+    height: 50px
+}
+.height{
+    height: 100vh;
+}
