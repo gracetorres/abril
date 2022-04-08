@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="funcionesIniciales()">
+    <div>
+        <div class="flex-column">
+            <div class="header"> </div>
+            <div class="flex-row w-100">
+                <div class="flex-column bk-menu w-10 height" id="links">
+                    
+                    <a id="inicio" onclick="linkSeleccionado('inicio')" class="font " href="javascript:void(0)">Inicio</a>
+                    <a id="tierList" onclick="linkSeleccionado('tierList')" class="font" href="javascript:void(0)">TierList de Campeones</a>
+                    <a id="comps" onclick="linkSeleccionado('comps')" class="font" href="javascript:void(0)">Composiciones</a>
+                    <a id="rasgos" onclick="linkSeleccionado('rasgos')" class="font" href="javascript:void(0)">Rasgos</a>
+                    <a id="objetos" onclick="linkSeleccionado('objetos')" class="font" href="javascript:void(0)">Objetos</a>
+                    <a id="mejoresJugadores" onclick="linkSeleccionado('mejoresJugadores')" class="font" href="javascript:void(0)">Mejores Jugadores</a>
+                    <a id="distribucion" onclick="linkSeleccionado('distribucion')" class="font" href="javascript:void(0)">Distribución de Rango</a>
+                    <a id="equipo" onclick="linkSeleccionado('equipo')" class="font" href="javascript:void(0)">Armador de Equipo</a>
+                    
+                </div>
+                <div class="w-90" id="contenidoDos0">
+                    <button onclick="añadircelda()">añadir</button>
+                <table border="1" style="width:100%">
+                    <thead>
+                        <td>Item</td>
+                        <td>Nombre producto</td>
+                        <td>Unidad</td>
+                        <td>Precio(S/.)</td>
+                        <td>Cantidad</td>
+                        <td>Subtotal</td>
+                    </thead>
+                    <tbody id="tbody">
+                  
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"></td>
+                            <td >Total</td>
+                            <td id="total"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+                <select name="" id="">
+                    <option value="" hidden>Seleccione</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
